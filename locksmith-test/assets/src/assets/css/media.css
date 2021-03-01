@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1300px){
+    .section-form{
+        min-height:350px;
+    }
+
+    .input-wrapper {
+        display: flex;
+        flex-direction: column;
+        
+       }
+    
+    .contact-form{
+        max-width: 900px @!important;
+        margin: 0;
+    }
+
+    .input-name{
+        margin-top:30px;
+    }
+
+    .input-phone{
+        margin-top:30px;
+    }
+
+    .send-btn{
+        margin-top:30px;
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    p{
+        font-size: 10%;
+    }
+
+    .contact-form{
+        max-width: 700px;
+    }
+
+    .navbar-brand img{
+        max-width: 300px;
+    }
+}
